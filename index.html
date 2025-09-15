@@ -725,7 +725,113 @@
     color: #ccc;
   }
 
+/* Responsive Design */
+        @media (max-width: 1200px) {
+            .container1 {
+                padding: 30px 20px;
+            }
+            
+            .date-name {
+                right: 20px;
+                top: 20px;
+            }
+            
+            .creative {
+                left: 5%;
+            }
+            
+            .portfolio {
+                left: 2%;
+            }
+            
+            .image-wrapper {
+                left: 30%;
+            }
+        }
 
+        @media (max-width: 992px) {
+            .creative {
+                font-size: 24px;
+            }
+            
+            .image-wrapper {
+                left: 35%;
+                max-width: 200%;
+            }
+            
+            .desc-container {
+                margin-top: 180px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container1 {
+                padding: 20px 15px;
+                margin: 30px auto;
+            }
+            
+            .date-name {
+                position: static;
+                text-align: left;
+                margin-bottom: 30px;
+            }
+            
+            .creative {
+                position: static;
+                font-size: 22px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            
+            .portfolio {
+                position: static;
+                font-size: 15vw;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            
+            .image-wrapper {
+                position: static;
+                transform: none;
+                margin: 0 auto 30px;
+                max-width: 80%;
+                text-align: center;
+            }
+            
+            .image-wrapper img {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            .desc-container {
+                flex-direction: column;
+                margin-top: 0;
+            }
+            
+            .desc {
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .creative {
+                font-size: 20px;
+            }
+            
+            .portfolio {
+                font-size: 18vw;
+            }
+            
+            .image-wrapper {
+                max-width: 90%;
+            }
+            
+            .date-name {
+                font-size: 13px;
+            }
+        }
 
 
 
@@ -1133,4 +1239,5 @@
 
 
 5
+
 
